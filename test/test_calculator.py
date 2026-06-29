@@ -1,3 +1,7 @@
+import sys
+import os
+sys.path.insert(0, os.getcwd())
+
 import pytest
 from calculator import add, subtract, multiply, divide
 
