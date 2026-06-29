@@ -10,7 +10,8 @@ jobs:
   test-in-container:
     runs-on: ubuntu-latest
     container:
-      image: sanskriti300/quiz8:v2
+      image: sanskriti300/quiz8:latest
+  
 
     steps:
       - name: Check out code
